@@ -28,7 +28,7 @@
 <body>
 
 <h1>Política de Privacidad de Poncho</h1>
-<p class="sub">Aplicación para Android &mdash; Última actualización: 2 de septiembre de 2026</p>
+<p class="sub">Aplicación para Android &mdash; Última actualización: 12 de septiembre de 2026</p>
 
 <p>Poncho es una aplicación que bloquea aplicaciones que te distraen y las reemplaza con tarjetas
 de repaso generadas a partir de tu propio material de estudio. Esta política explica qué datos
@@ -71,7 +71,8 @@ puedas repasarlos, y permanecen ahí hasta que vos los elimines.</p>
 <p>Registramos cuándo aplicás un bloqueo (hora local, día de la semana y zona horaria) y cuántas
 veces respondiste a las tarjetas, para calcular tu racha de estudio y sugerir horarios de
 notificación acordes a cuándo estudiás. También registramos interacciones básicas dentro de la app,
-como qué pantallas visitás, para entender cómo se usa y mejorarla.</p>
+como qué pantallas visitás, para entender cómo se usa y mejorarla. Parte de esa medición la hace
+un proveedor externo que graba tu recorrido por la app: lo explicamos en detalle en el punto 2.8.</p>
 <div class="callout">
   <p><strong>No registramos qué aplicaciones bloqueás.</strong> La lista de apps que elegís
   bloquear se guarda únicamente en tu dispositivo y nunca se envía a nuestros servidores.</p>
@@ -100,6 +101,28 @@ para poder avisarte cuando tu resumen está listo, enviarte recordatorios de est
 novedades de la aplicación. Podés revocar el permiso de notificaciones en cualquier momento desde
 los ajustes de Android.</p>
 
+<h3>2.8 Grabación de tu recorrido por la app</h3>
+<p>Usamos <strong>Microsoft Clarity</strong>, una herramienta de analítica de producto que registra
+cómo te movés dentro de Poncho: los toques y deslizamientos que hacés, el orden en que recorrés las
+pantallas, cuánto tardás en cada una y dónde te trabás. Esos registros se reproducen después como
+una grabación de la sesión, y se combinan en mapas de calor que muestran qué zonas de cada pantalla
+se usan más. Lo usamos para detectar en qué puntos la app confunde o falla, y arreglarlos.</p>
+<div class="callout">
+  <p><strong>El contenido de tus textos no queda grabado.</strong> La herramienta está configurada
+  con el enmascarado activado: los textos y las imágenes se reemplazan por bloques antes de que la
+  grabación salga de tu teléfono, así que tu material de estudio, tus resúmenes y tus tarjetas no
+  viajan a Microsoft. Lo que se registra es la forma de tu interacción, no lo que escribiste o leíste.</p>
+</div>
+<p>Junto con eso, la herramienta recibe un identificador propio de sesión y de instalación que
+genera ella misma (distinto del identificador de tu cuenta de Google, que no se le envía), además
+del modelo de dispositivo, la versión de Android y el país deducido de tu dirección IP.</p>
+<p>A diferencia de nuestros demás proveedores, <strong>Microsoft no trata estos datos únicamente por
+cuenta y orden nuestra: también los usa para sus propios fines</strong>, que según su documentación
+incluyen mejorar sus productos y servicios y fines publicitarios y de marketing. Por eso lo
+declaramos como una cesión a un tercero y no como un mero encargo de tratamiento. Podés leer cómo
+trata Microsoft esta información en la
+<a href="https://www.microsoft.com/privacy/privacystatement">Declaración de Privacidad de Microsoft</a>.</p>
+
 <h2>3. El permiso de Accesibilidad</h2>
 <p>Para poder bloquear otras aplicaciones, Poncho necesita que actives su Servicio de Accesibilidad
 en los ajustes de Android. Queremos ser explícitos sobre su alcance, porque es un permiso sensible:</p>
@@ -114,6 +137,9 @@ en los ajustes de Android. Queremos ser explícitos sobre su alcance, porque es 
 </div>
 <p>Poncho no utiliza el permiso de Accesibilidad para ninguna finalidad ajena al bloqueo de
 aplicaciones, ni para publicidad, ni para recopilar información.</p>
+<p>Para evitar confusiones: todo lo anterior se refiere a <strong>las otras aplicaciones de tu
+teléfono</strong>, cuyo contenido Poncho no puede ver. Las pantallas de Poncho mismo sí se graban,
+con el contenido enmascarado, según lo explicado en el punto 2.8.</p>
 
 <h2>4. Para qué usamos tus datos</h2>
 <table>
@@ -125,9 +151,15 @@ aplicaciones, ni para publicidad, ni para recopilar información.</p>
   <tr><td>País</td><td>Adaptar precios y contenidos</td></tr>
   <tr><td>Datos técnicos y errores</td><td>Diagnosticar fallas y mejorar la estabilidad</td></tr>
   <tr><td>Identificador de notificaciones</td><td>Avisarte que tu resumen está listo, recordatorios y novedades</td></tr>
+  <tr><td>Recorrido por la app (toques, pantallas, tiempos)</td><td>Detectar dónde se traba o falla la app y mejorarla. Microsoft, además, lo usa para sus propios fines, incluidos los publicitarios</td></tr>
 </table>
-<p><strong>No vendemos tus datos, no los cedemos a terceros con fines comerciales y no mostramos
-publicidad.</strong> Poncho no incluye redes publicitarias ni rastreadores de terceros.</p>
+<p><strong>No vendemos tus datos y no mostramos publicidad dentro de Poncho.</strong> La app no
+incluye redes publicitarias ni muestra anuncios de ningún tipo.</p>
+<p>Con una excepción que queremos dejar explícita: la herramienta de analítica descrita en el punto
+2.8 es un tercero que, además de prestarnos el servicio, <strong>usa esos datos de recorrido para
+sus propios fines, incluidos los publicitarios y de marketing</strong>. No recibe tu material de
+estudio, ni tu identificador de cuenta, ni ningún dato de pago. Si no querés que eso ocurra, podés
+eliminar tu cuenta (punto 8).</p>
 
 <h2>5. Con quién los compartimos</h2>
 <p>Sólo recurrimos a proveedores que tratan los datos por cuenta y orden nuestra, con la finalidad
@@ -140,7 +172,11 @@ de prestar el servicio:</p>
   <tr><td>Railway Corp.</td><td>Estados Unidos</td><td>Servidores de la aplicación</td><td>Los datos descritos en esta política</td></tr>
   <tr><td>Google (Firebase Cloud Messaging)</td><td>Estados Unidos</td><td>Envío de notificaciones</td><td>El identificador de notificaciones de tu dispositivo</td></tr>
   <tr><td>Google Play</td><td>Estados Unidos</td><td>Cobro y verificación de suscripciones</td><td>Los datos de la transacción, según la política de Google</td></tr>
+  <tr><td>Microsoft (Clarity)</td><td>Estados Unidos</td><td>Analítica de producto: grabación de sesiones y mapas de calor</td><td>Tu recorrido por la app con el contenido enmascarado, un identificador propio de sesión, el modelo de dispositivo, la versión de Android y el país</td></tr>
 </table>
+<p><strong>Microsoft es la única excepción</strong> a la frase con la que abre este punto: no trata
+los datos sólo por cuenta y orden nuestra, sino que también los usa para sus propios fines. El
+detalle está en el punto 2.8.</p>
 <p>El texto que enviamos a los proveedores de inteligencia artificial <strong>no incluye tu
 identificador de usuario</strong>: reciben el contenido a procesar sin ningún dato que permita
 asociarlo a vos.</p>
@@ -148,8 +184,9 @@ asociarlo a vos.</p>
 para proteger nuestros derechos ante un uso indebido del servicio.</p>
 
 <h2>6. Transferencias internacionales</h2>
-<p>Como surge del cuadro anterior, tus datos se procesan fuera de Argentina, en Estados Unidos y,
-en el caso de DeepSeek, en China. Al usar Poncho prestás tu consentimiento para esas transferencias,
+<p>Como surge del cuadro anterior, tus datos se procesan fuera de Argentina: en Estados Unidos
+&mdash;incluidos los servidores de Microsoft que reciben las grabaciones de uso&mdash; y, en el caso
+de DeepSeek, en China. Al usar Poncho prestás tu consentimiento para esas transferencias,
 que realizamos con el único fin de prestarte el servicio. Te recomendamos no incluir en tu material
 de estudio información sensible que no quieras que sea procesada por estos proveedores.</p>
 
@@ -160,6 +197,7 @@ de estudio información sensible que no quieras que sea procesada por estos prov
   <tr><td>Eventos de uso detallados</td><td>Se borran automáticamente a los 90 días</td></tr>
   <tr><td>Contadores de uso diario</td><td>Se borran automáticamente a las 48 horas</td></tr>
   <tr><td>Registros de error</td><td>Se conservan para diagnóstico, pero se <strong>anonimizan</strong> al eliminar tu cuenta: se les quita el identificador de usuario y dejan de estar asociados a vos</td></tr>
+  <tr><td>Grabaciones de tu recorrido por la app</td><td>Las administra Microsoft conforme a sus propios plazos: 30 días las grabaciones reproducibles, y 9 meses los datos agregados, los mapas de calor y las sesiones que se hayan marcado</td></tr>
   <tr><td>Comprobantes de compra</td><td>Los administra Google Play conforme a sus propias políticas</td></tr>
 </table>
 
@@ -209,7 +247,7 @@ aplicación.</p>
 
 <footer>
   Poncho &mdash; Aprender Procrastinando. Política de privacidad de la versión para Android,
-  vigente desde el 2 de septiembre de 2026.
+  vigente desde el 12 de septiembre de 2026.
 </footer>
 
 </body>
